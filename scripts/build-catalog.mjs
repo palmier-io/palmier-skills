@@ -51,10 +51,13 @@ for (const id of ids) {
   const md = join(skillsDir, id, "SKILL.md");
   if (!existsSync(md)) { fail(`${id}: missing SKILL.md`); continue; }
   const text = readFileSync(md, "utf8");
-  const { fields } = parseFrontmatter(text);
+  // Git commonly checks Markdown out with CRLF on Windows. Normalize before
+  // parsing and hashing so the committed catalog is platform-independent.
+  const normalizedText = text.replace(/\r\n/g, "\n");
+  const { fields } = parseFrontmatter(normalizedText);
   validate(id, fields);
   if (!fields.name || !fields.description) continue;
-  const sha = createHash("sha256").update(text).digest("hex").slice(0, 12);
+  const sha = createHash("sha256").update(normalizedText).digest("hex").slice(0, 12);
   entries.push({ id, name: fields.name, description: fields.description, sha, path: `skills/${id}/SKILL.md` });
 }
 
