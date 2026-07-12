@@ -10,7 +10,7 @@
     "id": "keyframe-animation",
     "name": "keyframe-animation",
     "description": "Animate a clip's motion, opacity, or volume over time inside Palmier Pro by keyframing one property at a time with set_keyframes — fades, Ken Burns push-ins, picture-in-picture slides, spins, crop reveals, and audio ducks. Drives Palmier Pro's set_keyframes and get_timeline tools directly, with the clip-relative frame model, top-left/normalized coordinate system, and linear/hold/smooth interpolation grounded in how the engine actually samples tracks. Use whenever the user wants to animate, move, pan, zoom, fade, spin, grow/shrink, reveal, or duck a clip's value over time — \"make it zoom in slowly,\" \"fade this out,\" \"slide the PIP in from the side,\" \"add a Ken Burns effect,\" even if they don't say \"keyframe.\"",
-    "sha": "587703d62541",
+    "sha": "44b9a5acf15f",
     "path": "skills/keyframe-animation/SKILL.md"
   },
   {
