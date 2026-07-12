@@ -7,6 +7,13 @@
     "path": "skills/color-grading/SKILL.md"
   },
   {
+    "id": "keyframe-animation",
+    "name": "keyframe-animation",
+    "description": "Animate a clip's motion, opacity, or volume over time inside Palmier Pro by keyframing one property at a time with set_keyframes — fades, Ken Burns push-ins, picture-in-picture slides, spins, crop reveals, and audio ducks. Drives Palmier Pro's set_keyframes and get_timeline tools directly, with the clip-relative frame model, top-left/normalized coordinate system, and linear/hold/smooth interpolation grounded in how the engine actually samples tracks. Use whenever the user wants to animate, move, pan, zoom, fade, spin, grow/shrink, reveal, or duck a clip's value over time — \"make it zoom in slowly,\" \"fade this out,\" \"slide the PIP in from the side,\" \"add a Ken Burns effect,\" even if they don't say \"keyframe.\"",
+    "sha": "44b9a5acf15f",
+    "path": "skills/keyframe-animation/SKILL.md"
+  },
+  {
     "id": "ugc-editing",
     "name": "ugc-editing",
     "description": "Covers assembling raw footage, trimming bad takes and silences, choosing and applying a talking-head/b-roll format (straight intercut, stacked split, or masked/floating overlay), and caption placement for UGC-style content — agnostic to whether the clips are AI-generated or real filmed footage. Use whenever the user wants to edit, cut, assemble, format, or caption UGC-style video, or pick a talking-head + b-roll layout. Picks up after ugc-photo-prompts/ugc-video-prompts if the footage is AI-generated, or after real footage is imported via import_media.",
