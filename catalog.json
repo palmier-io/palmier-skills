@@ -1,5 +1,12 @@
 [
   {
+    "id": "beat-synced-vlog-editing",
+    "name": "beat-synced-vlog-editing",
+    "description": "Cut vlogs and montages to music inside Palmier Pro — pick an anchor moment, do the drop math so the music's biggest beat lands exactly on it, put cuts on downbeats, size clips in whole beats, and keep the sync intact through later edits. Covers music entrances/exits (they belong on cuts), ducking under dialogue and diegetic sound with volume keyframes, and handing off from SFX to music. Uses detect_beats, move_clips, set_keyframes, and add_clips. Use whenever the user wants an edit synced to music — \"make the cut hit the beat,\" \"land this moment on the drop,\" montage pacing, day-in-the-life or travel vlog edits with a music bed, or when music feels off and cuts don't land.",
+    "sha": "aad3a85e50fd",
+    "path": "skills/beat-synced-vlog-editing/SKILL.md"
+  },
+  {
     "id": "color-grading",
     "name": "color-grading",
     "description": "Color grade clips the way a professional colorist does — normalize, balance, match, then build a look — using inspect_color scopes and apply_color (exposure, white balance, wheels, curves, hue curves, LUTs). Use when the user asks to color, grade, match shots, fix white balance, fix exposure, neutralize a cast, or apply a look/film stock.",
