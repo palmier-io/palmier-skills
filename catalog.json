@@ -12,6 +12,11 @@
     "description": "Use when cutting footage to music in Palmier Pro — beat-matched montages, cutting on the beat, rhythmic pacing, hitting the drop, or syncing edits to a track's tempo and downbeats.",
     "sha": "9d9dd328d8f5",
     "path": "skills/beat-sync/SKILL.md"
+    "id": "caption-templates",
+    "name": "caption-templates",
+    "description": "Style captions in Palmier Pro from a fixed catalog of 28 verified presets (Clean Creator, Keyword Yellow, Karaoke Fill, Meme Classic, Documentary, Floating Pill, Marker Highlight, Comic Book POW, Retro VHS, TikTok Meme Bottom Bar, and more) instead of guessing at fonts, colors, sizes, and animations. Use whenever adding, restyling, or choosing a look for captions/subtitles in Palmier Pro — \"add captions\", \"caption this\", \"subtitles\", \"make the captions pop\", \"karaoke captions\", \"podcast captions\", \"TikTok-style captions\", \"change the caption style\".",
+    "sha": "885887ebf58c",
+    "path": "skills/caption-templates/SKILL.md"
   },
   {
     "id": "color-grading",
