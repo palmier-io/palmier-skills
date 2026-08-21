@@ -1,5 +1,17 @@
 [
   {
+    "id": "audio-post",
+    "name": "audio-post",
+    "description": "Use when mixing or cleaning audio in Palmier Pro — music beds, ducking music under speech, fade in/out, denoise, removing silence, sound effects, or balancing voiceover levels.",
+    "sha": "ae3b91115ecd",
+    "path": "skills/audio-post/SKILL.md"
+  },
+  {
+    "id": "beat-sync",
+    "name": "beat-sync",
+    "description": "Use when cutting footage to music in Palmier Pro — beat-matched montages, cutting on the beat, rhythmic pacing, hitting the drop, or syncing edits to a track's tempo and downbeats.",
+    "sha": "9d9dd328d8f5",
+    "path": "skills/beat-sync/SKILL.md"
     "id": "caption-templates",
     "name": "caption-templates",
     "description": "Style captions in Palmier Pro from a fixed catalog of 28 verified presets (Clean Creator, Keyword Yellow, Karaoke Fill, Meme Classic, Documentary, Floating Pill, Marker Highlight, Comic Book POW, Retro VHS, TikTok Meme Bottom Bar, and more) instead of guessing at fonts, colors, sizes, and animations. Use whenever adding, restyling, or choosing a look for captions/subtitles in Palmier Pro — \"add captions\", \"caption this\", \"subtitles\", \"make the captions pop\", \"karaoke captions\", \"podcast captions\", \"TikTok-style captions\", \"change the caption style\".",
@@ -14,11 +26,39 @@
     "path": "skills/color-grading/SKILL.md"
   },
   {
-    "id": "create-skill-from-timeline",
-    "name": "create-skill-from-timeline",
-    "description": "Reverse-engineer a finished Palmier Pro timeline into a reusable SKILL.md that recreates the same edit from the same footage with no prior context, or applies the same style to new footage with minimal tweaks. Use when the user asks to create a skill, save a template, distill this edit into a playbook, document how this video was built, or turn a timeline / chat session into a reusable workflow.",
-    "sha": "f1fecf5839ba",
-    "path": "skills/create-skill-from-timeline/SKILL.md"
+    "id": "edit-direction",
+    "name": "edit-direction",
+    "description": "Use when deciding the creative treatment for a video edit in Palmier Pro — the look/grade, pacing, transition style, structure, and typography — or when an edit feels flat, low-motion, or too similar to a previous one. Sets the direction the mechanics skills then execute.",
+    "sha": "3f5bdfdaf19c",
+    "path": "skills/edit-direction/SKILL.md"
+  },
+  {
+    "id": "footage-scouting",
+    "name": "footage-scouting",
+    "description": "Use when scouting raw or long footage in Palmier Pro before cutting — inspecting clips efficiently with inspect_media (overview storyboards then windowed sampling), reading the audio transcription for content and drops, and building a grounded, timestamped shot list of what is ACTUALLY on screen. The \"how to look\" phase that feeds footage-triage (which to keep) and reel-mechanics (how to place).",
+    "sha": "a73c607942b3",
+    "path": "skills/footage-scouting/SKILL.md"
+  },
+  {
+    "id": "footage-triage",
+    "name": "footage-triage",
+    "description": "Use when selecting clips for an edit from a large or repetitive footage pool in Palmier Pro — avoiding near-duplicate/similar shots, ensuring shot-type variety, choosing among many lookalike clips, or when a cut feels repetitive because the same source got reused.",
+    "sha": "323a2b9005a3",
+    "path": "skills/footage-triage/SKILL.md"
+  },
+  {
+    "id": "generative-media",
+    "name": "generative-media",
+    "description": "Use when generating AI media inside Palmier Pro — AI b-roll or a seamless continuation shot, AI music beds, TTS voiceover, sound effects, video-to-music scoring, or upscaling footage.",
+    "sha": "86b520605e3c",
+    "path": "skills/generative-media/SKILL.md"
+  },
+  {
+    "id": "motion-keyframes",
+    "name": "motion-keyframes",
+    "description": "Use when animating a clip in Palmier Pro — Ken Burns push-in or pan, zoom, speed ramps, slow-motion, freeze-frame, or any keyframed movement of a single clip.",
+    "sha": "67fc7fbc94bc",
+    "path": "skills/motion-keyframes/SKILL.md"
   },
   {
     "id": "multi-cam-editing",
@@ -28,11 +68,32 @@
     "path": "skills/multi-cam-editing/SKILL.md"
   },
   {
+    "id": "pro-editing",
+    "name": "pro-editing",
+    "description": "Use when starting or troubleshooting an edit in the Palmier Pro MCP video editor — new timeline setup, placing footage, aspect-ratio or fps surprises, black bars/letterboxing, cover-cropping a 16:9 source into 9:16, or deciding which palmier editing skill to reach for.",
+    "sha": "08598aadc134",
+    "path": "skills/pro-editing/SKILL.md"
+  },
+  {
+    "id": "reel-mechanics",
+    "name": "reel-mechanics",
+    "description": "Use when assembling a vertical (9:16) reel from landscape footage in Palmier Pro — fixing the aspect-ratio snap-back, cover-cropping 16:9 into 9:16, tiling clips onto a beat grid, keeping off-center subjects framed during motion, hand-building whip-pans, and screen-blending flash / light-leak / wash overlays. The integrator that ties beat-sync, motion-keyframes, transitions, and vfx-compositing into one clean build.",
+    "sha": "f09a7efeff4b",
+    "path": "skills/reel-mechanics/SKILL.md"
+  },
+  {
     "id": "timeless-love-story",
     "name": "timeless-love-story",
     "description": "Generates a ~70-second cinematic short where one couple is reincarnated across five historical eras plus a modern-day finale, shot in a consistent handheld DV-camcorder \"found footage\" style, scored with epic-romantic orchestral strings. Requires two reference photos (man, woman) and their two names — ask for these if missing. Use when the user asks to make a multi-era love story video, a reincarnated-lovers video, a \"Timeless\"-style short, or describes this exact concept (couple across history eras, camcorder POV, doorway transitions between eras). Always use this skill for this request rather than improvising the flow — the execution order (sheets first, then everything in parallel) is the point of the skill.",
     "sha": "f5d0bd2c8d86",
     "path": "skills/timeless-love-story/SKILL.md"
+  },
+  {
+    "id": "transitions",
+    "name": "transitions",
+    "description": "Use when adding a transition between clips in Palmier Pro — cross dissolve, fade or dip to black, whip pan, zoom/push, flash, or J-cut/L-cut audio leads — or when clips only hard-cut and you want a blended edit.",
+    "sha": "73e978839f38",
+    "path": "skills/transitions/SKILL.md"
   },
   {
     "id": "ugc-editing",
@@ -54,5 +115,12 @@
     "description": "Generate ultra-realistic UGC/influencer-style video clips inside Palmier Pro — talking selfies, product demos, candid lifestyle motion — using the proven still-then-animate pipeline instead of cold text-to-video. Drives Palmier Pro's generate_video, get_timeline, and get_media tools directly, with model selection grounded in this project's actual capabilities (dialogue/audio support, reference limits, resolution). Use whenever the user wants UGC-style video, influencer clips, talking-to-camera ad creative, \"make a video of [a person/product],\" or animating a still into motion — even if they don't say \"UGC\" explicitly. Pairs with the ugc-photo-prompts skill, which should run first to produce the anchor still.",
     "sha": "d499a8cd8d0a",
     "path": "skills/ugc-video-prompts/SKILL.md"
+  },
+  {
+    "id": "vfx-compositing",
+    "name": "vfx-compositing",
+    "description": "Use when applying visual effects or compositing in Palmier Pro — glow/bloom, film grain, blur, sharpen, clarity/dehaze, vignette, chroma/green-screen key, light-leak or overlay compositing, blend modes, or split-screen/PIP/grid layouts.",
+    "sha": "a3e050d21da1",
+    "path": "skills/vfx-compositing/SKILL.md"
   }
 ]
